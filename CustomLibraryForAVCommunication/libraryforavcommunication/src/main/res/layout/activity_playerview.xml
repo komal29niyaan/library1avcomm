@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.cut2it.cut2itapp.avcommunication.CustomView
+        <com.example.libraryforavcommunication.avcommunication.CustomView
             android:id="@+id/exoplayer"
             android:layout_width="match_parent"
             android:layout_height="205dp"
