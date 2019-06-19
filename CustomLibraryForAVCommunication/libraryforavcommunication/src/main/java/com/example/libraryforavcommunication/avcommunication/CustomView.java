@@ -11,9 +11,9 @@ public class CustomView extends PlayerView {
         super(context);
     }
 
-    public CustomView(Context context, AttributeSet attrs) {
+   /* public CustomView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
-
+*/
 
 }
