@@ -9,7 +9,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.example.libraryforavcommunication.avcommunication.CustomView
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/exoplayer"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            app:show_buffering="always"
+            app:show_timeout="5000"
+            app:surface_type="surface_view"
+            ></com.google.android.exoplayer2.ui.PlayerView>
+      <!--  <com.example.libraryforavcommunication.avcommunication.CustomView
             android:id="@+id/exoplayer"
             android:layout_width="match_parent"
             android:layout_height="205dp"
@@ -18,9 +26,7 @@
             app:show_buffering="always"
             app:show_timeout="5000"
             app:surface_type="surface_view" />
-
-
-
+-->
         <LinearLayout
             android:id="@+id/mediaControllers"
             android:layout_width="match_parent"
